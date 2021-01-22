@@ -37,3 +37,4 @@ Moreover, you probably had enough of people snooping on you and want some privac
 # CloudWatch and auto healing configuration
 
 It show you how to create a CloudWatch Events rule that monitors for stop and start events invoked by OpsWorks Stacks auto healing.
+[Doc](https://github.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/Doc_CloudWatch_auto_healing%20_configuration.md)

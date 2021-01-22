@@ -1,6 +1,6 @@
 # CloudWatch and auto healing configuration
 
-show you how to create a CloudWatch Events rule that monitors for stop and start events invoked by OpsWorks Stacks auto healing.
+It show you how to create a CloudWatch Events rule that monitors for stop and start events invoked by OpsWorks Stacks auto healing.
 
  [OpsWorks Stacks](https://docs.aws.amazon.com/opsworks/latest/userguide/monitoring-cloudwatch-events.html) using CloudWatch event sources to trigger events or notifications, including events triggered by auto healing. You can use these event sources to trigger events or notifications, including events triggered by auto healing.
 
@@ -20,7 +20,9 @@ To create CloudWatch rules, you first need to create a target. In this solution 
 
 Create an [SNS](http://docs.aws.amazon.com/sns/latest/dg/CreateTopic.html) topic named OpsWorksAutoHealingNotifier. To receive messages published to the topic, you have to [subscribe](https://docs.aws.amazon.com/sns/latest/dg/welcome.html) an endpoint to that topic. Complete the subscription by opening the confirmation message from AWS Notifications, and then click the link to confirm your subscription.
 
-# IMG
+
+<img align="left" alt="Unix" width="30px" src="https://raw.githubusercontent.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/imgs/rules-autohealing-expl-001.png" />
+# IMG https://github.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/imgs/rules-autohealing-expl-001.png
 
 Now we are ready to create our CloudWatch Rule.
 
