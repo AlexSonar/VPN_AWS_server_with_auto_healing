@@ -1,0 +1,13 @@
+{
+    "Version": "2008-10-17",
+    "Id": "OWAH",
+    "Statement": [{
+      "Sid": "TrustCWEToPublishEventsToMyTopicOWAH",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "events.amazonaws.com"
+      },
+      "Action": "sns:Publish",
+      "Resource": "arn:aws:sns:<Region>:<AccountNumber>:OpsWorksAutoHealingNotifier"
+    }]
+  }
