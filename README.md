@@ -37,4 +37,21 @@ Moreover, you probably had enough of people snooping on you and want some privac
 # CloudWatch and auto healing configuration
 
 It show you how to create a CloudWatch Events rule that monitors for stop and start events invoked by OpsWorks Stacks auto healing.
-[Doc](https://github.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/Doc_CloudWatch_auto_healing%20_configuration.md)
+[Doc CloudWatch and auto healing configuration](https://github.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/Doc_CloudWatch_auto_healing%20_configuration.md)
+
+
+[User Guide – Securing remote access to AWS VPC](https://openvpn.net/cloud-docs/user-guide-securing-remote-access-to-aws-vpc/)
+
+[Getting started with Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/GettingStartedTutorial.html#gs-create-lt) by 5 steps
+
+## Important!
+To get started, you can launch a single free tier eligible Linux instance. If you created your AWS account less than 12 months ago, and have not already exceeded the free tier benefits for Amazon EC2, it will not cost you anything to complete this tutorial, because we help you select options that are within the free tier benefits. Otherwise, when you follow this tutorial, you incur the standard Amazon EC2 usage fees from the time that the instance launches until you delete the Auto Scaling group (which is the final task of this tutorial) and the instance status changes to terminated. 
+
+Tasks:
+
+ - Step 1: Create a launch template
+ - Step 2: Create an Auto Scaling group
+ - Step 3: Verify your Auto Scaling group
+ - Step 4: Next steps
+ - Step 5: (Optional) Delete your scaling infrastructure
+
