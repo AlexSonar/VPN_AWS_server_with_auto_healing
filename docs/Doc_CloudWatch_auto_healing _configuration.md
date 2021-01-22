@@ -146,6 +146,9 @@ Make sure to use a different ID for the second target if you are using the AWS C
 Create notifications when instances are in start_failed or stop_failed status by setting up notifications.
 
 # IMG
+<br>
+<img align="left" alt="" width="100%" src="https://github.com/AlexSonar/VPN_AWS_server_with_auto_healing/blob/main/auto_healing/imgs/rules-event-pattern-002.png" />
+<br>
 
 One example of a situation in which you could build a custom event pattern is when an instance times out when stopping.
 
