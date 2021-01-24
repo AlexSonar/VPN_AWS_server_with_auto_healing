@@ -63,7 +63,7 @@ resource "aws_security_group" "test_sg_terraform" {
     description = "UDP for VPNSRV Tunnel"
     from_port   = 1194
     to_port     = 1194
-    protocol    = "tcp"
+    protocol    = "udp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
